@@ -6,7 +6,8 @@ function Header() {
     <div >
        <Navbar expand="lg"  style={{backgroundColor:'#fff8dc' }}>
       <Container>
-        <Navbar.Brand ><Link to={'/'} style={{color:'black',fontWeight:'bold'}}/><i className="fa-solid fa-truck-fast"></i>E cart</Navbar.Brand>
+        <Navbar.Brand ><Link to={'/'} style={{color:'black',fontWeight:'bold',textDecoration:'none'}}><i className="fa-solid fa-truck-fast"></i>E cart</Link></Navbar.Brand>
+      
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

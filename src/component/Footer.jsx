@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
-        <div className='d-flex justify-content-center align-items-center flex-column flex-wrap W-100' style={{ width: '100%', height: '300px' ,marginLeft:"30px",backgroundColor:'#fff8dc' }}>
+        <div className='d-flex justify-content-center align-items-center flex-column flex-wrap W-100' style={{ width: '100%', height: '300px' ,backgroundColor:'#fff8dc' }}>
             <div className="footer-content d-flex  justify-content-evenly   w-100">
                 <div className="website "style={{ width: '400px' }}>
                     <h4 style={{color:'black',overflow:'hidden'}}><i className="fa-solid fa-truck-fast"></i>{" "}E cart</h4>
